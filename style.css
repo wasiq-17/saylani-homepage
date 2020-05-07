@@ -88,11 +88,16 @@ h5 {
   border: 1px solid rgb(238, 238, 238);
 }
 
-.line-bottom {
+.events {
   color: rgb(49, 109, 195);
   font-family: serif;
   font-size: 24px;
   font-weight: 600;
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.line-bottom {
   padding-bottom: 4px;
   border-bottom: 1px solid rgb(238, 238, 238);
 }
@@ -164,5 +169,9 @@ h5 {
   }
   .box-resp {
     margin-top: 8px;
+  }
+  .mobile-view marquee,
+  .mobile-view p {
+    height: 80px;
   }
 }
